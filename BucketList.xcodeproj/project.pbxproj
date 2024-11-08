@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0469FBB12CDEA3B5009FA11C /* ComparableConformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469FBB02CDEA3B5009FA11C /* ComparableConformance.swift */; };
+		0469FBB32CDEA49C009FA11C /* DocDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469FBB22CDEA49C009FA11C /* DocDirectory.swift */; };
+		0469FBB52CDEA5C2009FA11C /* EnumViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0469FBB42CDEA5C2009FA11C /* EnumViewState.swift */; };
 		0486084E2CDBC8F90029E1C3 /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486084D2CDBC8F90029E1C3 /* BucketListApp.swift */; };
 		048608502CDBC8F90029E1C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486084F2CDBC8F90029E1C3 /* ContentView.swift */; };
 		048608522CDBC8FF0029E1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048608512CDBC8FF0029E1C3 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0469FBB02CDEA3B5009FA11C /* ComparableConformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparableConformance.swift; sourceTree = "<group>"; };
+		0469FBB22CDEA49C009FA11C /* DocDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocDirectory.swift; sourceTree = "<group>"; };
+		0469FBB42CDEA5C2009FA11C /* EnumViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumViewState.swift; sourceTree = "<group>"; };
 		0486084A2CDBC8F80029E1C3 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0486084D2CDBC8F90029E1C3 /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		0486084F2CDBC8F90029E1C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				0486084D2CDBC8F90029E1C3 /* BucketListApp.swift */,
 				0486084F2CDBC8F90029E1C3 /* ContentView.swift */,
+				0469FBB42CDEA5C2009FA11C /* EnumViewState.swift */,
+				0469FBB22CDEA49C009FA11C /* DocDirectory.swift */,
+				0469FBB02CDEA3B5009FA11C /* ComparableConformance.swift */,
 				048608512CDBC8FF0029E1C3 /* Assets.xcassets */,
 				048608532CDBC8FF0029E1C3 /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0469FBB32CDEA49C009FA11C /* DocDirectory.swift in Sources */,
 				048608502CDBC8F90029E1C3 /* ContentView.swift in Sources */,
 				0486084E2CDBC8F90029E1C3 /* BucketListApp.swift in Sources */,
+				0469FBB52CDEA5C2009FA11C /* EnumViewState.swift in Sources */,
+				0469FBB12CDEA3B5009FA11C /* ComparableConformance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
