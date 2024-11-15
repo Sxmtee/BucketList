@@ -19,6 +19,8 @@
 		048608552CDBC8FF0029E1C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 048608542CDBC8FF0029E1C3 /* Preview Assets.xcassets */; };
 		0488FC552CDF9DB000FEB2CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488FC542CDF9DB000FEB2CB /* MapView.swift */; };
 		0488FC572CDF9E3900FEB2CB /* TouchFaceAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488FC562CDF9E3900FEB2CB /* TouchFaceAuth.swift */; };
+		04E922A52CE78A06001F3713 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E922A42CE78A06001F3713 /* ContentView-ViewModel.swift */; };
+		04E922A72CE79B00001F3713 /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E922A62CE79B00001F3713 /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		048608542CDBC8FF0029E1C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0488FC542CDF9DB000FEB2CB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		0488FC562CDF9E3900FEB2CB /* TouchFaceAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchFaceAuth.swift; sourceTree = "<group>"; };
+		04E922A42CE78A06001F3713 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		04E922A62CE79B00001F3713 /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 			children = (
 				0486084D2CDBC8F90029E1C3 /* BucketListApp.swift */,
 				0486084F2CDBC8F90029E1C3 /* ContentView.swift */,
+				04E922A62CE79B00001F3713 /* EditView-ViewModel.swift */,
+				04E922A42CE78A06001F3713 /* ContentView-ViewModel.swift */,
 				045EF9A22CE3AF0E00764300 /* Result.swift */,
 				045EF9A02CE3A93500764300 /* EditView.swift */,
 				04036D552CE25559006FF142 /* Location.swift */,
@@ -166,8 +172,10 @@
 				04036D562CE25559006FF142 /* Location.swift in Sources */,
 				048608502CDBC8F90029E1C3 /* ContentView.swift in Sources */,
 				0486084E2CDBC8F90029E1C3 /* BucketListApp.swift in Sources */,
+				04E922A72CE79B00001F3713 /* EditView-ViewModel.swift in Sources */,
 				045EF9A12CE3A93500764300 /* EditView.swift in Sources */,
 				045EF9A32CE3AF0E00764300 /* Result.swift in Sources */,
+				04E922A52CE78A06001F3713 /* ContentView-ViewModel.swift in Sources */,
 				0469FBB52CDEA5C2009FA11C /* EnumViewState.swift in Sources */,
 				0488FC572CDF9E3900FEB2CB /* TouchFaceAuth.swift in Sources */,
 				0469FBB12CDEA3B5009FA11C /* ComparableConformance.swift in Sources */,
